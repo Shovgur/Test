@@ -37,7 +37,12 @@
           </label>
         </form>
         <div id="timer"></div>
-        <input placeholder="Ваш номер телефона"  maska type="tel" class="form-control">
+        <input
+          placeholder="Ваш номер телефона"
+          maska
+          type="tel"
+          class="form-control"
+        />
         <button class="succsess_button" value="Click" onclick="viewDiv()">
           Отправить отзыв
         </button>
@@ -51,12 +56,12 @@
           <button class="succsess_button">OK</button>
         </div>
       </div>
-    </div>ß
+    </div>
+    ß
 
-    
     <script>
       $(".maska").mask("+375 (99) 999-99-99");
-      
+
       $.fn.setCursorPosition = function (pos) {
         if ($(this).get(0).setSelectionRange) {
           $(this).get(0).setSelectionRange(pos, pos);
@@ -68,11 +73,11 @@
           range.select();
         }
       };
-      
+
       $('input[type="tel"]').click(function () {
         $(this).setCursorPosition(4);
       });
-      </script>
-      <script src="/maska-nomera.js" type="text/javascript"></script>
+    </script>
+    <script src="/maska-nomera.js" type="text/javascript"></script>
   </body>
 </html>

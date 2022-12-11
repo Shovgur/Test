@@ -8,9 +8,7 @@ function closePopup(popup) {
   $("#openMyPopup").focus();
 }
 function viewDiv() {
-
-    document.getElementById("content1")
-;
+  document.getElementById("content1");
   document.getElementById("content1").style.display = "none";
   document.getElementById("content2").style.display = "block";
 }

@@ -5,12 +5,12 @@
   justify-content: center;
 }
 
-#div1{
-height: 270px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+#div1 {
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .form {
